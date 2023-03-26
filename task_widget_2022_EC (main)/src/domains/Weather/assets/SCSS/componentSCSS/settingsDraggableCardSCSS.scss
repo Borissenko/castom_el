@@ -1,0 +1,37 @@
+
+.settings-dr-card-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  padding: calc(var(--vt-c-common-padding) / 2);
+  background-color: var(--vt-c-grey_light);
+  color: var(--vt-c-grey2);
+  cursor: move;
+
+  .dr-card__icon, .dr-card__icon-img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.87;
+  }
+
+  .dr-card__body {
+    border-bottom: 1px solid var(--vt-c-green);
+    margin: 0 var(--vt-c-common-padding);
+    flex: 1;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    & :first-child {
+      margin-right: calc(var(--vt-c-common-padding) * 2);
+    }
+  }
+
+  .dr-card__trash {
+    cursor: pointer;
+  }
+
+  .dr-card__trash:hover {
+    opacity: 0.4;
+  }
+}

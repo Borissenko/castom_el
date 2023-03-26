@@ -1,0 +1,1 @@
+export const VITE_WEATHER_LOCAL_STORAGE_NAME = 'WeatherCoordinates'

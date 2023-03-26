@@ -1,0 +1,62 @@
+
+$icon-size: 30px;
+
+.settings-wrapper__bg {
+  background: var(--vt-c-blue_light);
+}
+
+.settings-wrapper {
+  position: relative;
+  min-width: $icon-size;
+  min-height: $icon-size;
+  height: max-content;
+  box-sizing: border-box;
+  padding: var(--vt-c-common-padding);
+  z-index: 101;
+
+
+  .settings__outside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--vt-c-white-mute);
+    z-index: 100;
+
+    background: transparent;
+  }
+
+  .settings__spot {
+    position: relative;
+    width: fit-content;
+    background: transparent;
+    z-index: 110;
+
+    .spot-top {
+      display: flex;
+
+      &__title {
+        display: flex;
+        place-items: center start;
+        text-transform: uppercase;
+      }
+
+      &__icon {
+        width: $icon-size;
+        height: $icon-size;
+        margin-left: auto;
+        cursor: pointer;
+
+        &-img {
+          width: $icon-size;
+          height: $icon-size;
+        }
+      }
+    }
+
+    .spot-body {
+      margin-top: calc(var(--vt-c-common-padding) * 2);
+    }
+  }
+}

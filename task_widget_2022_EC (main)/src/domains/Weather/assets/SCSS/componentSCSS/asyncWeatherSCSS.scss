@@ -1,0 +1,19 @@
+.weather-wrapper {
+
+  h1 {
+    width: min-content;
+    color: var(--vt-c-green);
+    cursor: pointer;
+  }
+
+  .weather__settings {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  //.weather__card:not(:first-child) {     //no work
+  //  margin-top: 20px;
+  //}
+
+}

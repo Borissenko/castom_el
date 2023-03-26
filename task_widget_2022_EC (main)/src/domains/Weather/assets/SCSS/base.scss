@@ -1,0 +1,26 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+$red: #dede16;       //work too
+
+:host {
+  --vt-c-white: #ffffff;
+  --vt-c-white-mute: rgba(255,255,255, 0.3);
+  --vt-c-green: hsla(160, 100%, 37%, 1);
+  --vt-c-valid: #29ec29;
+  --vt-c-grey: #333333;
+  --vt-c-grey2: #6c6a6a;
+  --vt-c-grey_light: #dee6e8;
+  --vt-c-grey_dark: #93989a;
+  --vt-c-blue_dark: #c0c3c4;
+  --vt-c-blue_light: #f3f7f8;
+  --vt-c-red: red;
+
+  --vt-c-common-padding: 1rem;
+}
+
+
+/* semantic color variables for this project */
+:host {
+  --color-background: var(--vt-c-white);
+}
+
